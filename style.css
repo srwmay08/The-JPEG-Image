@@ -1,0 +1,47 @@
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: darkgrey;
+}
+
+.content {
+	display: flex;
+	flex: 1;
+}
+
+.col {
+	background-color: white;
+	padding: 15px;
+	margin: 1px;
+	border-style: dotted;
+	border-color: blue;
+	border-width: 1px;
+	border-collapse: separate;
+}
+
+.col-center {
+	flex: 1;
+	padding: 25px;
+	
+}
+
+.col-left {
+	flex: 0 0 20%
+}
+
+.col-right {
+	flex: 0 0 15%;
+}
+
+#footer {
+	padding: 20px;
+	text-align: center;
+}
+
+#header {
+	color: blue;
+}
+
+.imgsize {
+text-align: center;
+}
